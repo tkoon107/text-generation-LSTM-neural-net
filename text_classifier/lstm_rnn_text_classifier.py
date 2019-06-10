@@ -5,8 +5,6 @@ import re
 os.chdir(r'/home/trevor/Documents/Projects/text_class_data/')
 df = pd.read_csv('consumer_complaints.csv')
 
-df = df[df['']]
-
 df = df[df['consumer_complaint_narrative'].notnull()]
 
 
